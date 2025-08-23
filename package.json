@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://shamim99apk.github.io/shamim",
+  "homepage": "https://shamim99apk.github.io/shamim/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -4,5 +4,5 @@ import { defineConfig } from "vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/your-repo-name/", // <- ekhane repo name
+  base: "/shamim/", // <- ekhane repo name
 });

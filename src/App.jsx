@@ -12,6 +12,8 @@ import {
   Phone,
   Rocket,
 } from "lucide-react";
+import Logo from "./logo.png";
+import ProfilePic from "./profile-pic-avatar.jpg";
 
 // ---------- Configurable Data ----------
 const PROFILE = {
@@ -236,11 +238,7 @@ function Header() {
         {/* <a href="#home" className="font-semibold tracking-tight">
           {PROFILE.name}
         </a> */}
-        <img
-          src="../public/otm3ihe7 (1).png"
-          alt="jnb"
-          className="h-14 w-auto"
-        />
+        <img src={Logo} alt="jnb" className="h-14 w-auto" />
         <nav className="hidden sm:flex items-center gap-6 text-sm">
           {nav.map((n) => (
             <a
@@ -276,7 +274,7 @@ function Hero() {
       >
         <div className="grid md:grid-cols-[auto,1fr] items-center gap-8">
           <img
-            src="../public/profile pic avatar.jpg"
+            src={ProfilePic}
             alt="profile"
             className="h-28 w-28 md:h-36 md:w-36 rounded-3xl border border-white/20 shadow"
           />
