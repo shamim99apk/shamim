@@ -252,7 +252,7 @@ function Header() {
         </nav>
         <div className="flex items-center gap-2">
           <a
-            href="/resume.pdf"
+            href="./resumee.pdf"
             className="hidden sm:inline-flex items-center gap-1 btn btn-primary rounded-2xl"
           >
             <Rocket className="h-4 w-4" /> Resume
